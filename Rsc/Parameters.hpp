@@ -487,7 +487,7 @@ class Params {
 		title = "Zerty: Electronic Warfare : Tactical HUD";
 		values[] = {0,1};
 		texts[] = {"Disabled","Enabled"};
-		default = 1;
+		default = 0;
 	};
 	class CTI_EW_HUD_S {
 		title = "Zerty: Electronic Warfare : Tactical HUD target report sensitivity";
@@ -529,7 +529,7 @@ class Params {
 		title = "Zerty: Halo Jump: Enabled";
 		values[] = {0,1};
 		texts[] = {"Disabled","Enabled"};
-		default = 1;
+		default = 0;
 	};
 	class CTI_SM_RADAR {
 		title = "Zerty: Air Radar: Enabled";
@@ -541,7 +541,7 @@ class Params {
 		title = "Zerty: Trophy: Enabled";
 		values[] = {0,1};
 		texts[] = {"False","True"};
-		default = 1;
+		default = 0;
 	};
 	class CTI_AC_ENABLED {
 		title = "Henroth: Aircraft Loadout Customisation : Enabled";

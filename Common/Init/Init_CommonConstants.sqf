@@ -381,7 +381,7 @@ with missionNamespace do {
 
 //--- Base: Area
 //CTI_BASE_AREA_MAX = if !(MADE_FOR_STRATIS) then {2} else {1};
-CTI_BASE_AREA_RANGE = if !(MADE_FOR_STRATIS) then {250} else {150};
+CTI_BASE_AREA_RANGE = 150;
 
 //--- Base: Construction
 CTI_BASE_CONSTRUCTION_DECAY_TIMEOUT = 300; //--- Decay starts after x seconds unattended.
@@ -409,8 +409,8 @@ CTI_BASE_NOOBPROTECTION = 1; //--- Make structures invulnerable to friendly fire
 
 //--- Base: Purchase range
 CTI_BASE_GEAR_FOB_RANGE = 20; //--- Determine how far a player has to be from a FOB to access the Gear Menu
-CTI_BASE_GEAR_RANGE = 500; //--- Determine how far a player has to be from a Barracks to access the Gear Menu
-CTI_BASE_PURCHASE_UNITS_RANGE = 500; //--- Determine how far a player has to be from a factory to access the Factory Menu without CC
+CTI_BASE_GEAR_RANGE = 200; //--- Determine how far a player has to be from a Barracks to access the Gear Menu
+CTI_BASE_PURCHASE_UNITS_RANGE = 200; //--- Determine how far a player has to be from a factory to access the Factory Menu without CC
 CTI_BASE_PURCHASE_UNITS_RANGE_CC = 7500; //--- Determine how far a player has to be from a factory to access the Factory Menu with CC
 
 //--- Base: Workers
@@ -537,11 +537,11 @@ CTI_SERVICE_PRICE_HEAL = 0;
 CTI_ART_REARM_RATIO=10;
 CTI_AIR_REARM_RATIO=5;
 //todo: add fuel & heal later on
-CTI_SERVICE_AMMO_DEPOT_RANGE = 400;
+CTI_SERVICE_AMMO_DEPOT_RANGE = 200;
 CTI_SERVICE_AMMO_DEPOT_TIME = 30;
 CTI_SERVICE_AMMO_TRUCK_RANGE = 50;
 CTI_SERVICE_AMMO_TRUCK_TIME = 60;
-CTI_SERVICE_REPAIR_DEPOT_RANGE = 400;
+CTI_SERVICE_REPAIR_DEPOT_RANGE = 200;
 CTI_SERVICE_REPAIR_DEPOT_TIME = 30;
 CTI_SERVICE_REPAIR_TRUCK_RANGE = 50;
 CTI_SERVICE_REPAIR_TRUCK_TIME = 50;
