@@ -75,9 +75,9 @@ _times = _times 			+ [90];
 _placements = _placements 	+ [[180, 20]];
 _specials = _specials		+ [[["Connected"],["DMG_Reduce", 0.9]]];
 
-_headers = _headers 		+ [[CTI_HEAVY, "Heavy Vehicle Factory", "Heavy"]];
+_headers = _headers 		+ [[CTI_HEAVY, "Green Building (No Use)", "Heavy"]];
 _classes = _classes 		+ [["Land_Cargo_HQ_V1_F", "Land_Cargo_HQ_V1_ruins_F"]];
-_prices = _prices 			+ [15000];
+_prices = _prices 			+ [2000];
 _times = _times 			+ [120];
 _placements = _placements 	+ [[90, 20]];
 _specials = _specials		+ [[["DMG_Reduce", .75]]];
