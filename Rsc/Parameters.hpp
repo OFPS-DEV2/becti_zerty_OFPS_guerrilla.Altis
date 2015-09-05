@@ -487,7 +487,7 @@ class Params {
 		title = "Zerty: Electronic Warfare : Tactical HUD";
 		values[] = {0,1};
 		texts[] = {"Disabled","Enabled"};
-		default = 0;
+		default = 1;
 	};
 	class CTI_EW_HUD_S {
 		title = "Zerty: Electronic Warfare : Tactical HUD target report sensitivity";

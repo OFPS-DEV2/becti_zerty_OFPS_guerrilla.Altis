@@ -103,13 +103,13 @@ _u = _u		+ [2];
 _p = _p		+ [20];
 
 _i = _i		+ ["150Rnd_762x51_Box"];
-_u = _u		+ [3];
+_u = _u		+ [2];
 _p = _p		+ [80];
 
 _i = _i		+ ["150Rnd_762x51_Box_Tracer"];
-_u = _u		+ [3];
+_u = _u		+ [2];
 _p = _p		+ [80];
-
+/*
 _i = _i		+ ["200Rnd_65x39_cased_Box"];
 _u = _u		+ [1];
 _p = _p		+ [100];
@@ -117,13 +117,13 @@ _p = _p		+ [100];
 _i = _i		+ ["200Rnd_65x39_cased_Box_Tracer"];
 _u = _u		+ [1];
 _p = _p		+ [100];
-
+*/
 _i = _i		+ ["RPG32_F"];
-_u = _u		+ [3];
+_u = _u		+ [1];
 _p = _p		+ [100];
 
 _i = _i		+ ["RPG32_HE_F"];
-_u = _u		+ [3];
+_u = _u		+ [1];
 _p = _p		+ [90];
 
  /*_i = _i	+ ["RPG32_AA_F"];
@@ -140,7 +140,7 @@ _p = _p		+ [100];
 
 _i = _i		+ ["Titan_AT"];
 _u = _u		+ [3];
-_p = _p		+ [120];*/
+_p = _p		+ [120];
 
 _i = _i		+ ["16Rnd_9x21_Mag"];
 _u = _u		+ [0];
@@ -148,7 +148,7 @@ _p = _p		+ [1];
 
 _i = _i		+ ["30Rnd_9x21_Mag"];
 _u = _u		+ [0];
-_p = _p		+ [2];
+_p = _p		+ [2]; */
 
 _i = _i		+ ["9Rnd_45ACP_Mag"];
 _u = _u		+ [0];
@@ -331,7 +331,7 @@ _u = _u		+ [3];
 _p = _p		+ [20];
 
 //--- Weapons (Nested array elements are defined but skiped in the gear menu)
-_i = _i		+ ["hgun_PDW2000_F"];
+/*_i = _i		+ ["hgun_PDW2000_F"];
 _u = _u		+ [0];
 _p = _p		+ [50];
 
@@ -346,17 +346,22 @@ _p = _p		+ [50];
 _i = _i		+ [["hgun_PDW2000_Holo_snds_F"]];
 _u = _u		+ [0];
 _p = _p		+ [50];
+*/
+
+_i = _i		+ ["SMG_01_F"];
+_u = _u		+ [0];
+_p = _p		+ [200];
 
 _i = _i		+ ["arifle_TRG21_F"];
 _u = _u		+ [1];
 _p = _p		+ [800];
 
 _i = _i		+ [["arifle_TRG21_ACO_pointer_F"]];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [300];
 
 _i = _i		+ [["arifle_TRG21_ARCO_pointer_F"]];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [500];
 
 _i = _i		+ ["arifle_TRG20_F"];
@@ -364,19 +369,19 @@ _u = _u		+ [1];
 _p = _p		+ [800];
 
 _i = _i		+ [["arifle_TRG20_Holo_F"]];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [300];
 
 _i = _i		+ [["arifle_TRG20_ACO_pointer_F"]];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [150];
 
 _i = _i		+ [["arifle_TRG20_ACO_Flash_F"]];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [150];
 
 _i = _i		+ [["arifle_TRG20_ACO_F"]];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [350];
 
 _i = _i		+ ["arifle_TRG21_GL_F"];
@@ -384,7 +389,7 @@ _u = _u		+ [2];
 _p = _p		+ [1200];
 
 _i = _i		+ [["arifle_TRG21_GL_ACO_pointer_F"]];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [400];
 
 _i = _i		+ ["arifle_SDAR_F"];
@@ -392,31 +397,31 @@ _u = _u		+ [2];
 _p = _p		+ [900];
 
 _i = _i		+ ["arifle_Katiba_F"];
-_u = _u		+ [3];
+_u = _u		+ [2];
 _p = _p		+ [300];
 
 _i = _i		+ [["arifle_Katiba_ACO_F"]];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [1000];
 
 _i = _i		+ [["arifle_Katiba_ACO_pointer_F"]];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [300];
 
 _i = _i		+ [["arifle_Katiba_ARCO_F"]];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [500];
 
 _i = _i		+ [["arifle_Katiba_ARCO_pointer_F"]];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [500];
 
 _i = _i		+ [["arifle_Katiba_ACO_pointer_snds_F"]];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [300];
 
 _i = _i		+ [["arifle_Katiba_ARCO_pointer_snds_F"]];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [500];
 
 _i = _i		+ ["arifle_Katiba_C_F"];
@@ -424,15 +429,15 @@ _u = _u		+ [2];
 _p = _p		+ [1000];
 
 _i = _i		+ [["arifle_Katiba_C_ACO_pointer_F"]];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [300];
 
 _i = _i		+ [["arifle_Katiba_C_ACO_F"]];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [300];
 
 _i = _i		+ [["arifle_Katiba_C_ACO_pointer_snds_F"]];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [300];
 
 _i = _i		+ ["arifle_Katiba_GL_F"];
@@ -440,35 +445,35 @@ _u = _u		+ [3];
 _p = _p		+ [1500];
 
 _i = _i		+ [["arifle_Katiba_GL_ACO_F"]];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [300];
 
 _i = _i		+ [["arifle_Katiba_GL_ARCO_pointer_F"]];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [500];
 
 _i = _i		+ [["arifle_Katiba_GL_ACO_pointer_F"]];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [300];
 
 _i = _i		+ [["arifle_Katiba_GL_COWS_pointer_F"]];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [750];
 
 _i = _i		+ [["arifle_Katiba_GL_Nstalker_pointer_F"]];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [1500];
 
 _i = _i		+ [["arifle_Katiba_GL_ACO_pointer_snds_F"]];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [300];
 
 _i = _i		+ ["LMG_Zafir_F"];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [2000];
 
 _i = _i		+ [["LMG_Zafir_pointer_F"]];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [150];
 
 _i = _i		+ ["srifle_DMR_01_F"];
@@ -500,7 +505,7 @@ _u = _u		+ [3];
 _p = _p		+ [2200];
 */
 _i = _i		+ ["launch_RPG32_F"];
-_u = _u		+ [3];
+_u = _u		+ [1];
 _p = _p		+ [4000];
 /*
 _i = _i		+ ["launch_O_Titan_F"];
@@ -739,7 +744,7 @@ _p = _p		+ [100];
 
 _i = _i		+ ["O_Mortar_01_weapon_F"];
 _u = _u		+ [3];
-_p = _p		+ [4900];
+_p = _p		+ [19900];
 };
 
 
