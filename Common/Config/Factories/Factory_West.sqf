@@ -6,35 +6,33 @@ missionNamespace setVariable [format["CTI_%1_Commander", _side], "B_officer_F"];
 missionNamespace setVariable [format["CTI_%1_Worker", _side], "B_Soldier_lite_F"];
 
 missionNamespace setVariable [format["CTI_%1_Diver", _side], "B_diver_f"];
-missionNamespace setVariable [format["CTI_%1_Soldier", _side], "B_Soldier_F"];
-missionNamespace setVariable [format["CTI_%1_Crew", _side], "B_crew_F"];
-missionNamespace setVariable [format["CTI_%1_Pilot", _side], "B_Helipilot_F"];
+missionNamespace setVariable [format["CTI_%1_Soldier", _side], "b_g_soldier_unarmed_f"];
+missionNamespace setVariable [format["CTI_%1_Crew", _side], "b_g_soldier_unarmed_f"];
+missionNamespace setVariable [format["CTI_%1_Pilot", _side], "b_g_soldier_unarmed_f"];
 
 missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [
 	["B_Truck_01_medical_F", [
-		["arifle_mx_gl_f", 2], ["30Rnd_65x39_caseless_mag", 50],
-		["arifle_MXM_F", 1],
-		["launch_NLAW_F", 5], ["NLAW_F", 20],
+		["30Rnd_9x21_Mag", 100],
+		//["arifle_MXM_F", 1],
+		//["launch_NLAW_F", 5], ["NLAW_F", 20],
 		["HandGrenade", 20],
-		["30Rnd_556x45_Stanag", 15],
-		["30Rnd_65x39_caseless_mag_Tracer", 6],
-		["3rnd_he_grenade_shell", 8],
-		["3Rnd_UGL_FlareWhite_F", 9],
-		["3rnd_smokeblue_grenade_shell", 3],
+		//["30Rnd_556x45_Stanag", 15],
+		//["30Rnd_65x39_caseless_mag_Tracer", 6],
+		//["3rnd_he_grenade_shell", 8],
+		//["3Rnd_UGL_FlareWhite_F", 9],
+		//["3rnd_smokeblue_grenade_shell", 3],
 		["SmokeShellBlue", 8],
 		["firstaidkit", 20],
 		["Chemlight_blue", 36],
-		["acc_flashlight", 5],
-		["optic_ACO_grn", 3],
-		["optic_Holosight", 2],
-		["optic_MRCO", 1],
-		["optic_arco", 2],
+		["acc_flashlight", 10],
+		//["optic_ACO_grn", 3],
+		//["optic_Holosight", 2],
+		//["optic_MRCO", 1],
+		//["optic_arco", 2],
 		["Toolkit", 1],
 		["B_Bergen_sgg", 4]
 	]],
-	["B_MRAP_01_F", [["Toolkit", 1],["firstaidkit", 10],["30Rnd_556x45_Stanag", 15],["launch_NLAW_F", 5], ["NLAW_F", 20]]]
-	//,	["B_Heli_Transport_01_F", []]
-
+	["B_MRAP_01_F", [["Toolkit", 1],["firstaidkit", 10],["30Rnd_9x21_Mag", 25]]]
 ]];
 
 //--- Units - Barracks
@@ -58,6 +56,17 @@ _u = _u		+ ["B_spotter_F"];
 _u = _u		+ ["B_soldier_UAV_F"];
 _u = _u		+ ["B_Helipilot_F"];
 _u = _u		+ ["B_crew_F"];
+//Resistance units here
+_u = _u		+ ["b_g_soldier_unarmed_f"];
+_u = _u		+ ["b_g_survivor_F"];
+_u = _u		+ ["B_G_Soldier_lite_F"];
+_u = _u		+ ["B_G_Soldier_F"];
+_u = _u		+ ["B_G_Soldier_SL_F"];
+_u = _u		+ ["B_G_Soldier_TL_F"];
+_u = _u		+ ["B_G_Soldier_AR_F"];
+_u = _u		+ ["B_G_medic_F"];
+_u = _u		+ ["B_G_Soldier_GL_F"];
+_u = _u		+ ["B_G_Soldier_LAT_F"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_BARRACKS], _u];
 
 _u 			= ["B_Quadbike_01_F"];
