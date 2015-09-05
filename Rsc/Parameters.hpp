@@ -57,7 +57,7 @@ class Params {
 		title = "INCOME: Starting Funds (East Players)";
 		values[] = {6000,8000,10000,15000,20000,25000,30000,35000,40000};
 		texts[] = {"$6000","$8000","$10000","$15000","$20000","$25000","$30000","$35000","$40000"};
-		default = 4000;
+		default = 6000;
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_WEST_COMMANDER {
 		title = "INCOME: Starting Funds (West Commander)";
@@ -69,7 +69,7 @@ class Params {
 		title = "INCOME: Starting Funds (West Players)";
 		values[] = {6000,8000,10000,15000,20000,25000,30000,35000,40000};
 		texts[] = {"$6000","$8000","$10000","$15000","$20000","$25000","$30000","$35000","$40000"};
-		default = 4000;
+		default = 6000;
 	};
 	class CTI_ECONOMY_TOWNS_OCCUPATION {
 		title = "INCOME: Towns Occupation";
@@ -231,7 +231,7 @@ class Params {
 		title = "Zerty: MISSION: Minimum number of towns";
 		values[] = {0,10,20,30,40};
 		texts[] = {"all","10","20","30","40"};
-		default = 0;
+		default = 20;
 	};
 	class CTI_VICTORY_HQ {
 		title = "Zerty: MISSION : Victory on HQ Destroyed";
