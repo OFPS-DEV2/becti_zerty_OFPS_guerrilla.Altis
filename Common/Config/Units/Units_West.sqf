@@ -184,6 +184,7 @@ _u = _u + [3];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + ["service-medic"];
 
+/*
 _c = _c + ['B_UGV_01_F'];
 _p = _p + [''];
 _n = _n + [''];
@@ -202,7 +203,7 @@ _u = _u + [3];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
-/*
+
 _c = _c + ['B_APC_Wheeled_01_cannon_F'];
 _p = _p + [''];
 _n = _n + [''];
