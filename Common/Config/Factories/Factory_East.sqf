@@ -35,7 +35,8 @@ missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [
 
 //--- Units - Barracks
 _u 			= ['O_soldier_AR_F'];
-_u = _u		+ ['O_Soldier_lite_F'];
+_u = _u		+ ['O_Soldier_lite_F']; 
+_u = _u		+ ['O_soldier_unarmed_f']; 
 _u = _u		+ ['O_Soldier_A_F'];
 _u = _u		+ ['O_soldier_exp_F'];
 _u = _u		+ ['O_Soldier_GL_F'];

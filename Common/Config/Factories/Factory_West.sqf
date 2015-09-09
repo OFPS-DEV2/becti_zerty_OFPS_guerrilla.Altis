@@ -39,6 +39,7 @@ missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [
 
 _u = ["B_soldier_AR_F"];
 _u = _u		+ ["B_Soldier_lite_F"];
+_u = _u		+ ["B_soldier_unarmed_f"]; 
 _u = _u		+ ["B_Soldier_A_F"];
 _u = _u		+ ["B_soldier_exp_F"];
 _u = _u		+ ["B_Soldier_GL_F"];
