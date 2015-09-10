@@ -33,8 +33,8 @@ _u = _u		+ [2];
 _p = _p		+ [150];
 
 _i = _i		+ ["DemoCharge_Remote_Mag"];
-_u = _u		+ [1];
-_p = _p		+ [75];
+_u = _u		+ [3];
+_p = _p		+ [1500];
 
 _i = _i		+ ["ClaymoreDirectionalMine_Remote_Mag"];
 _u = _u		+ [2];
@@ -58,17 +58,13 @@ _i = _i		+ ["6Rnd_45ACP_Cylinder"];
 _u = _u		+ [0];
 _p = _p		+ [5];
 
-_i = _i		+ ["10Rnd_762x51_Mag"];
-_u = _u		+ [3];
+_i = _i		+ ["10Rnd_762x54_Mag"];
+_u = _u		+ [2];
 _p = _p		+ [10];
 
 _i = _i		+ ["20Rnd_556x45_UW_mag"];
 _u = _u		+ [1];
 _p = _p		+ [8];
-
-_i = _i		+ ["20Rnd_762x51_Mag"];
-_u = _u		+ [3];
-_p = _p		+ [15];
 
 _i = _i		+ ["30Rnd_45ACP_Mag_SMG_01"];
 _u = _u		+ [0];
@@ -102,11 +98,11 @@ _i = _i		+ ["30Rnd_65x39_caseless_green_mag_Tracer"];
 _u = _u		+ [2];
 _p = _p		+ [20];
 
-_i = _i		+ ["150Rnd_762x51_Box"];
+_i = _i		+ ["150Rnd_762x54_Box"];
 _u = _u		+ [2];
 _p = _p		+ [80];
 
-_i = _i		+ ["150Rnd_762x51_Box_Tracer"];
+_i = _i		+ ["150Rnd_762x54_Box_Tracer"];
 _u = _u		+ [2];
 _p = _p		+ [80];
 /*
@@ -199,11 +195,11 @@ _u = _u		+ [1];
 _p = _p		+ [5];
 
 _i = _i		+ ["Chemlight_red"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [5];
 
 _i = _i		+ ["Chemlight_yellow"];
-_u = _u		+ [1];
+_u = _u		+ [0];
 _p = _p		+ [5];
 /*
 _i = _i		+ ["Chemlight_blue"];
@@ -366,7 +362,7 @@ _p = _p		+ [500];
 
 _i = _i		+ ["arifle_TRG20_F"];
 _u = _u		+ [1];
-_p = _p		+ [800];
+_p = _p		+ [600];
 
 _i = _i		+ [["arifle_TRG20_Holo_F"]];
 _u = _u		+ [1];
@@ -386,11 +382,11 @@ _p = _p		+ [350];
 
 _i = _i		+ ["arifle_TRG21_GL_F"];
 _u = _u		+ [2];
-_p = _p		+ [1200];
+_p = _p		+ [900];
 
 _i = _i		+ [["arifle_TRG21_GL_ACO_pointer_F"]];
-_u = _u		+ [1];
-_p = _p		+ [400];
+_u = _u		+ [2];
+_p = _p		+ [900];
 
 _i = _i		+ ["arifle_SDAR_F"];
 _u = _u		+ [2];
@@ -398,7 +394,7 @@ _p = _p		+ [900];
 
 _i = _i		+ ["arifle_Katiba_F"];
 _u = _u		+ [2];
-_p = _p		+ [300];
+_p = _p		+ [900];
 
 _i = _i		+ [["arifle_Katiba_ACO_F"]];
 _u = _u		+ [2];
@@ -426,7 +422,7 @@ _p = _p		+ [500];
 
 _i = _i		+ ["arifle_Katiba_C_F"];
 _u = _u		+ [2];
-_p = _p		+ [1000];
+_p = _p		+ [800];
 
 _i = _i		+ [["arifle_Katiba_C_ACO_pointer_F"]];
 _u = _u		+ [2];
@@ -442,7 +438,7 @@ _p = _p		+ [300];
 
 _i = _i		+ ["arifle_Katiba_GL_F"];
 _u = _u		+ [3];
-_p = _p		+ [1500];
+_p = _p		+ [1200];
 
 _i = _i		+ [["arifle_Katiba_GL_ACO_F"]];
 _u = _u		+ [2];
@@ -478,11 +474,11 @@ _p = _p		+ [150];
 
 _i = _i		+ ["srifle_DMR_01_F"];
 _u = _u		+ [2];
-_p = _p		+ [600];
+_p = _p		+ [1200];
 
 _i = _i		+ ["srifle_GM6_F"];
 _u = _u		+ [3];
-_p = _p		+ [1250];
+_p = _p		+ [2000];
 
 _i = _i		+ [["srifle_GM6_SOS_F"]];
 _u = _u		+ [3];
@@ -740,11 +736,11 @@ _p = _p		+ [1700];
 if !(MADE_FOR_STRATIS) then {
 _i = _i		+ ["O_Mortar_01_support_F"];
 _u = _u		+ [3];
-_p = _p		+ [100];
+_p = _p		+ [1000];
 
 _i = _i		+ ["O_Mortar_01_weapon_F"];
 _u = _u		+ [3];
-_p = _p		+ [19900];
+_p = _p		+ [39000];
 };
 
 

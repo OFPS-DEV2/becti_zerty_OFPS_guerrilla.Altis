@@ -230,7 +230,7 @@ _s = _s + [""];
 
 //----- added this one--------
 
-/*_c = _c + ['B_APC_Tracked_01_CRV_F'];  <--the new mhq (bobcat) ss83
+/*_c = _c + ['B_Truck_01_mover_F'];  <--the new mhq (bobcat) ss83
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [3500];

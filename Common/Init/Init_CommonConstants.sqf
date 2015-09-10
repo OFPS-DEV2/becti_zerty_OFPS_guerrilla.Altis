@@ -400,7 +400,7 @@ CTI_BASE_DEFENSES_AUTO_REARM_RANGE = 600; //--- Range needed for a defense to be
 CTI_BASE_DEFENSES_EMPTY_TIMEOUT = 1200; //--- Delay after which an empty defense is considered empty
 
 //--- Base: HQ
-CTI_BASE_HQ_REPAIR_PRICE = 50000; //--- The cost needed to repair the HQ
+CTI_BASE_HQ_REPAIR_PRICE = 20000; //--- The cost needed to repair the HQ
 CTI_BASE_HQ_REPAIR_RANGE = 100; //--- The range needed between the HQ wreck and the Repair Truck
 CTI_BASE_HQ_REPAIR_TIME = 60; //--- The time needed to repair the HQ
 
@@ -458,7 +458,7 @@ with missionNamespace do {
  */
 
 //--- Vehicles: Misc
-CTI_VEHICLES_RETEXTURE = ["I_Heli_Transport_02_F", "B_APC_Tracked_01_CRV_F"]; //--- Vehicles to retexture with basic skins, ss83 
+CTI_VEHICLES_RETEXTURE = ["I_Heli_Transport_02_F", "B_Truck_01_mover_F"]; //--- Vehicles to retexture with basic skins, ss83 
 CTI_MR_RETEXTURE = ["I_Heli_light_03_unarmed_F"]; //ss83 mobile respawn retexture custom skins
 CTI_AFIGHTER_RETEXTURE = ["I_Plane_Fighter_03_AA_F"]; //ss83 air superiority asset with custom skins
 

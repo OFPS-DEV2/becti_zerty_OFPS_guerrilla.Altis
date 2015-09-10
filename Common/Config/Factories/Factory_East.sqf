@@ -22,7 +22,7 @@ missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [
 		//["1Rnd_SmokeRed_Grenade_shell", 9],
 		["SmokeShellRed", 8],
 		["firstaidkit", 20],
-		["Chemlight_red", 36],
+		["Chemlight_yellow", 36],
 		["acc_flashlight", 10],
 		//["optic_ACO_grn", 3],
 		//["optic_Holosight", 2],

@@ -1,6 +1,6 @@
 _side = _this;
 
-missionNamespace setVariable [format["CTI_%1_HQ", _side], "B_APC_Tracked_01_CRV_F"];
+missionNamespace setVariable [format["CTI_%1_HQ", _side], "B_Truck_01_mover_F"];
 missionNamespace setVariable [format["CTI_%1_Factories", _side], ["Barracks","Light","Heavy","Air","Ammo","Repair"]];
 
 missionNamespace setVariable [format["CTI_%1_Base_Template", _side], [
@@ -269,7 +269,7 @@ _categories = _categories 	+ ["Defense"];
 if !(MADE_FOR_STRATIS) then {
 _headers = _headers 		+ ["Mortar"];
 _classes = _classes 		+ ["B_Mortar_01_F"];
-_prices = _prices 			+ [20000];
+_prices = _prices 			+ [40000];
 _placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
 };
