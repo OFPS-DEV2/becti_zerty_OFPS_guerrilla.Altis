@@ -11,9 +11,9 @@ with missionNamespace do {
 	EAST_SOLDIER_GL = ["O_G_Soldier_GL_F", 1];
 	EAST_SOLDIER_MEDIC = ["O_G_medic_F", 1];
 	// EAST_SOLDIER_MG = "soldiermg";
-	EAST_SOLDIER_PILOT = ["O_helipilot_F", 1];
+	EAST_SOLDIER_PILOT = ["O_G_Soldier_lite_F", 1];
 	EAST_SOLDIER_SQUADLEADER = ["O_G_Soldier_SL_F", 1];
-	EAST_SOLDIER_SNIPER = ["O_G_Soldier_M_F", 1];
+	EAST_SOLDIER_SNIPER = ["O_G_Soldier_F", 1];
 	EAST_SOLDIER_TEAMLEADER = ["O_G_Soldier_TL_F", 1];
 	
 	//--- Vehicles

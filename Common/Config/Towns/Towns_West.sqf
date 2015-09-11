@@ -11,9 +11,9 @@ with missionNamespace do {
 	WEST_SOLDIER_GL = ["B_G_Soldier_GL_F", 1];
 	WEST_SOLDIER_MEDIC = ["B_G_medic_F", 1];
 	// WEST_SOLDIER_MG = "soldiermg";
-	WEST_SOLDIER_PILOT = ["B_helipilot_F", 1];
+	WEST_SOLDIER_PILOT = ["B_G_Soldier_lite_F", 1];
 	WEST_SOLDIER_SQUADLEADER = ["B_G_Soldier_SL_F", 1];
-	WEST_SOLDIER_SNIPER = ["B_G_Soldier_M_F", 1];
+	WEST_SOLDIER_SNIPER = ["B_G_Soldier_F", 1];
 	WEST_SOLDIER_TEAMLEADER = ["B_G_Soldier_TL_F", 1];
 	
 	//--- Vehicles
@@ -28,7 +28,7 @@ with missionNamespace do {
 	WEST_SOLDIERS_AT_HEAVY = [WEST_SOLDIER_AT, WEST_SOLDIER_HAT];
 	WEST_SOLDIERS_SPECOPS = [["B_G_Soldier_AR_F", 1]];
 	WEST_SOLDIERS_ENGINEER = [WEST_SOLDIER_ENGINEER, ["B_G_engineer_F", 1]];
-	WEST_SOLDIERS_SNIPERS = [WEST_SOLDIER_SNIPER, ["B_G_Soldier_M_F", 1], ["B_G_Soldier_M_F", 1]];
+	WEST_SOLDIERS_SNIPERS = [WEST_SOLDIER_SNIPER, ["B_G_Soldier_F", 1], ["B_G_Soldier_F", 1]];
 
 	//--- Vehicles
 	WEST_VEHICLE_AA = [["B_G_Offroad_01_armed_F", 1]];
