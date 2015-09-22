@@ -29,7 +29,7 @@ _u = _u		+ [1];
 _p = _p		+ [50];
 
 _i = _i		+ ["SatchelCharge_Remote_Mag"];
-_u = _u		+ [2];
+_u = _u		+ [1];
 _p = _p		+ [150];
 
 _i = _i		+ ["DemoCharge_Remote_Mag"];

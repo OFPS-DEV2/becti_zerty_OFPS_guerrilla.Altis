@@ -5,7 +5,7 @@ _side = _this;
 missionNamespace setVariable [format["CTI_%1_Commander", _side], "B_officer_F"];
 missionNamespace setVariable [format["CTI_%1_Worker", _side], "B_Soldier_lite_F"];
 
-missionNamespace setVariable [format["CTI_%1_Diver", _side], "B_diver_f"];
+missionNamespace setVariable [format["CTI_%1_Diver", _side], "b_g_soldier_unarmed_f"];
 missionNamespace setVariable [format["CTI_%1_Soldier", _side], "b_g_soldier_unarmed_f"];
 missionNamespace setVariable [format["CTI_%1_Crew", _side], "b_g_soldier_unarmed_f"];
 missionNamespace setVariable [format["CTI_%1_Pilot", _side], "b_g_soldier_unarmed_f"];

@@ -515,7 +515,7 @@ _t = _t + [15];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_NAVAL];
 _s = _s + [""];
-
+/*
 _c = _c + ['O_Boat_Armed_01_hmg_F'];
 _p = _p + [''];
 _n = _n + [''];
@@ -524,7 +524,7 @@ _t = _t + [25];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_NAVAL];
 _s = _s + [""];
-
+*/
 _c = _c + ['O_SDV_01_F'];
 _p = _p + [''];
 _n = _n + [''];
