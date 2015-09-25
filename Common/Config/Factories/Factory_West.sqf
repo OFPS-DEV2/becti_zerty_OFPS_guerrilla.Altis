@@ -118,9 +118,10 @@ _u = _u		+ ['I_Heli_Transport_02_F'];
 /*
 _u = _u		+ ['I_Heli_light_03_F'];
 _u = _u		+ ['I_Plane_Fighter_03_CAS_F'];
-*/
+
 _u = _u		+ ['I_Plane_Fighter_03_AA_F'];
-//_u = _u		+ ["I_Plane_Fighter_03_CAS_F"];
+_u = _u		+ ["I_Plane_Fighter_03_CAS_F"];
+*/
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AIR], _u];
 
 _u 			= ["B_Truck_01_Repair_F"];
