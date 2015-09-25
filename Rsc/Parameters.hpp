@@ -33,7 +33,7 @@ class Params {
 		title = "BASE: FOB Limit";
 		values[] = {0,1,2,3,4,5,6,7,8,9,10};
 		texts[] = {"Disabled","1","2","3","4","5","6","7","8","9","10"};
-		default = 2;
+		default = 0;
 	};
 	class CTI_BASE_STARTUP_PLACEMENT {
 		title = "BASE: Startup Placement";
@@ -147,7 +147,7 @@ class Params {
 		title = "UNITS: Fatigue reduction ratio for players";
 		values[] = {0,20,40,60,80,100};
 		texts[] = {"Full Fatigue","20%","40%","60%","80%","No Fatigue"};
-		default = 40;
+		default = 80;
 	};
 	class CTI_VEHICLES_EMPTY_TIMEOUT {
 		title = "UNITS: Vehicles Reycling Delay";
@@ -385,7 +385,7 @@ class Params {
 		title = "Zerty: TOWNS : Shop price ratio";
 		values[] = {1,2,3,5,10,100};
 		texts[] = {"1","2","3","5","10","100"};
-		default = 3;
+		default = 2;
 	};
 
 	class CTI_WEATHER_INITIAL {
