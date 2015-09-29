@@ -381,7 +381,7 @@ with missionNamespace do {
 
 //--- Base: Area
 //CTI_BASE_AREA_MAX = if !(MADE_FOR_STRATIS) then {2} else {1};
-CTI_BASE_AREA_RANGE = if !(MADE_FOR_STRATIS) then {250} else {150};
+CTI_BASE_AREA_RANGE = 150;
 
 //--- Base: Construction
 CTI_BASE_CONSTRUCTION_DECAY_TIMEOUT = 300; //--- Decay starts after x seconds unattended.
@@ -400,7 +400,7 @@ CTI_BASE_DEFENSES_AUTO_REARM_RANGE = 600; //--- Range needed for a defense to be
 CTI_BASE_DEFENSES_EMPTY_TIMEOUT = 1200; //--- Delay after which an empty defense is considered empty
 
 //--- Base: HQ
-CTI_BASE_HQ_REPAIR_PRICE = 50000; //--- The cost needed to repair the HQ
+CTI_BASE_HQ_REPAIR_PRICE = 20000; //--- The cost needed to repair the HQ
 CTI_BASE_HQ_REPAIR_RANGE = 100; //--- The range needed between the HQ wreck and the Repair Truck
 CTI_BASE_HQ_REPAIR_TIME = 60; //--- The time needed to repair the HQ
 
@@ -409,8 +409,8 @@ CTI_BASE_NOOBPROTECTION = 1; //--- Make structures invulnerable to friendly fire
 
 //--- Base: Purchase range
 CTI_BASE_GEAR_FOB_RANGE = 20; //--- Determine how far a player has to be from a FOB to access the Gear Menu
-CTI_BASE_GEAR_RANGE = 500; //--- Determine how far a player has to be from a Barracks to access the Gear Menu
-CTI_BASE_PURCHASE_UNITS_RANGE = 500; //--- Determine how far a player has to be from a factory to access the Factory Menu without CC
+CTI_BASE_GEAR_RANGE = 200; //--- Determine how far a player has to be from a Barracks to access the Gear Menu
+CTI_BASE_PURCHASE_UNITS_RANGE = 200; //--- Determine how far a player has to be from a factory to access the Factory Menu without CC
 CTI_BASE_PURCHASE_UNITS_RANGE_CC = 7500; //--- Determine how far a player has to be from a factory to access the Factory Menu with CC
 
 //--- Base: Workers
@@ -458,7 +458,7 @@ with missionNamespace do {
  */
 
 //--- Vehicles: Misc
-CTI_VEHICLES_RETEXTURE = ["I_Heli_Transport_02_F", "B_APC_Tracked_01_CRV_F"]; //--- Vehicles to retexture with basic skins, ss83 
+CTI_VEHICLES_RETEXTURE = ["I_Heli_Transport_02_F", "B_Truck_01_mover_F"]; //--- Vehicles to retexture with basic skins, ss83 
 CTI_MR_RETEXTURE = ["I_Heli_light_03_unarmed_F"]; //ss83 mobile respawn retexture custom skins
 CTI_AFIGHTER_RETEXTURE = ["I_Plane_Fighter_03_AA_F"]; //ss83 air superiority asset with custom skins
 
@@ -537,11 +537,11 @@ CTI_SERVICE_PRICE_HEAL = 0;
 CTI_ART_REARM_RATIO=10;
 CTI_AIR_REARM_RATIO=5;
 //todo: add fuel & heal later on
-CTI_SERVICE_AMMO_DEPOT_RANGE = 400;
+CTI_SERVICE_AMMO_DEPOT_RANGE = 200;
 CTI_SERVICE_AMMO_DEPOT_TIME = 30;
 CTI_SERVICE_AMMO_TRUCK_RANGE = 50;
 CTI_SERVICE_AMMO_TRUCK_TIME = 60;
-CTI_SERVICE_REPAIR_DEPOT_RANGE = 400;
+CTI_SERVICE_REPAIR_DEPOT_RANGE = 200;
 CTI_SERVICE_REPAIR_DEPOT_TIME = 30;
 CTI_SERVICE_REPAIR_TRUCK_RANGE = 50;
 CTI_SERVICE_REPAIR_TRUCK_TIME = 50;
@@ -612,7 +612,7 @@ with missionNamespace do {
 	if (isNil 'CTI_AI_SKILL') then {CTI_AI_SKILL = 4}; //Done
 	//--- zerty parameters
 
-	if (isNil 'CTI_BASEBUILDING') then {CTI_BASEBUILDING = 1}; //DOn
+	if (isNil 'CTI_BASEBUILDING') then {CTI_BASEBUILDING = 0}; //DOn
 	if (isNil 'CTI_TEAMSWAP') then {CTI_TEAMSWAP = 1}; //DOn
 	if (isNil 'CTI_TEAMSTACK') then {CTI_TEAMSTACK = 1}; //DOn
 	if (isNil 'CTI_MAX_MISSION_TIME') then {CTI_MAX_MISSION_TIME = 12}; //DOne
@@ -635,7 +635,7 @@ with missionNamespace do {
 	if (isNil "CTI_SM_BASEP_M") then {CTI_SM_BASEP_M=0};
 	if (isNil "CTI_SM_REPAIR") then {CTI_SM_REPAIR=1};
 	if (isNil "CTI_SM_MORTARS") then {CTI_SM_MORTARS=1};
-	if (isNil "CTI_SM_STRATEGIC") then {CTI_SM_STRATEGIC=0};
+	if (isNil "CTI_SM_STRATEGIC") then {CTI_SM_STRATEGIC=1};
 	if (isNil "CTI_SM_STRATEGIC_NB") then {CTI_SM_STRATEGIC_NB=3};
 	if (isNil "CTI_SM_HALO") then {CTI_SM_HALO=1};
 	if (isNil "CTI_SM_RADAR") then {CTI_SM_RADAR=1};

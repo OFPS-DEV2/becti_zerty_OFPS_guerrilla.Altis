@@ -1,6 +1,6 @@
 _side = _this;
 
-missionNamespace setVariable [format["CTI_%1_HQ", _side], "B_APC_Tracked_01_CRV_F"];
+missionNamespace setVariable [format["CTI_%1_HQ", _side], "B_Truck_01_mover_F"];
 missionNamespace setVariable [format["CTI_%1_Factories", _side], ["Barracks","Light","Heavy","Air","Ammo","Repair"]];
 
 missionNamespace setVariable [format["CTI_%1_Base_Template", _side], [
@@ -63,42 +63,42 @@ _specials = _specials		+ [[["DMG_Reduce", 2]]];  // Value @ 1 = 2 AP slammer sho
 
 _headers = _headers 		+ [[CTI_LIGHT, "Light Vehicle Factory", "Light"]];
 _classes = _classes 		+ [["Land_Medevac_HQ_V1_F", "Land_Medevac_HQ_V1_ruins_F"]];
-_prices = _prices 			+ [10000];
+_prices = _prices 			+ [8000];
 _times = _times 			+ [80];
 _placements = _placements 	+ [[90, 20]];
 _specials = _specials		+ [[["DMG_Reduce", 0.7]]];  //with value @ 1 = 16 AP Slammer shots, @ .5 = 8 shots, etc (applies only with V1_F structure) so to determine how many shots to down, x/16 = %, where x is how many shots you want it to take
 
 _headers = _headers 		+ [[CTI_CONTROLCENTER, "Control Center", "CC"]];
 _classes = _classes 		+ [["Land_Research_HQ_F", "Land_Research_HQ_ruins_F", ["Land_Research_HQ_F"]]];							  
-_prices = _prices 			+ [20000];
+_prices = _prices 			+ [10000];
 _times = _times 			+ [90];
 _placements = _placements 	+ [[180, 20]];
 _specials = _specials		+ [[["Connected"],["DMG_Reduce", 0.9]]];
 
-_headers = _headers 		+ [[CTI_HEAVY, "Heavy Vehicle Factory", "Heavy"]];
+_headers = _headers 		+ [[CTI_HEAVY, "Green Building (No Use)", "Heavy"]];
 _classes = _classes 		+ [["Land_Cargo_HQ_V1_F", "Land_Cargo_HQ_V1_ruins_F"]];
-_prices = _prices 			+ [15000];
+_prices = _prices 			+ [2000];
 _times = _times 			+ [120];
 _placements = _placements 	+ [[90, 20]];
 _specials = _specials		+ [[["DMG_Reduce", .75]]];
 
 _headers = _headers 		+ [[CTI_AIR, "Aircraft Factory", "Air"]];
 _classes = _classes 		+ [["Land_Radar_Small_F", "Land_Radar_Small_ruins_F"]];
-_prices = _prices 			+ [20000];
+_prices = _prices 			+ [12000];
 _times = _times 			+ [140];
 _placements = _placements 	+ [[90, 35]];
 _specials = _specials		+ [[["DMG_Alternative"], ["DMG_Reduce", 1.2]]];  //with value of 1.2 = 12 slammer ap shots
 
 _headers = _headers 		+ [[CTI_AMMO, "Ammo Depot", "Ammo"]];
 _classes = _classes 		+ [["Land_Cargo_HQ_V2_F", "Land_Cargo_HQ_V2_ruins_F"]];
-_prices = _prices 			+ [12000];
+_prices = _prices 			+ [5000];
 _times = _times 			+ [40];
 _placements = _placements 	+ [[0, 20]];
 _specials = _specials		+ [[["DMG_Alternative"], ["DMG_Reduce", .5]]];
 
 _headers = _headers 		+ [[CTI_REPAIR, "Repair Depot", "Repair"]];
 _classes = _classes 		+ [["Land_Cargo_HQ_V3_F", "Land_Cargo_HQ_V3_ruins_F"]];
-_prices = _prices 			+ [15000];
+_prices = _prices 			+ [8000];
 _times = _times 			+ [35];
 _placements = _placements 	+ [[180, 20]];
 _specials = _specials		+ [[["DMG_Reduce", .5]]];
@@ -112,7 +112,7 @@ _specials = _specials		+ [[["DMG_Alternative"], ["DMG_Reduce", .5]]];
 
 _headers = _headers 		+ [[CTI_RADAR, "Air Radar", "Air Radar"]];
 _classes =  _classes 		+ [["Land_TTowerBig_2_F", "Land_TTowerBig_2_ruins_F"]];
-_prices =  _prices 			+ [20000];
+_prices =  _prices 			+ [10000];
 _times =  _times 			+ [120];
 _placements =_placements 	+ [[180, 30]];
 _specials = _specials		+ [[["DMG_Reduce", 1]]];  //takes 10 AP hits ss83
@@ -236,11 +236,11 @@ _categories = _categories 	+ ["Fortification"];
 if ((missionNamespace getVariable "CTI_RESPAWN_FOB_RANGE")> 0) then {
 	_headers = _headers 		+ [["FOB",[["RuinOnDestroyed", "Land_Medevac_house_V1_ruins_F"], ["FOB"],["Condition", {_cpt = if (isNil {CTI_P_SideLogic getVariable "cti_fobs"}) then {1000} else {count (CTI_P_SideLogic getVariable "cti_fobs")}; (_cpt < CTI_BASE_FOB_MAX) && (call CTI_CL_FNC_IsPlayerCommander || (!(call CTI_CL_FNC_IsPlayerCommander) && CTI_P_TeamsRequests_FOB > 0)|| ( missionNamespace getVariable 'CTI_BASE_FOB_PERMISSION' ) == 0 )}]]]];
 	_classes = _classes 		+ ["Land_Medevac_house_V1_F"];
-	_prices = _prices 			+ [10000];
+	_prices = _prices 			+ [15000];
 	_placements = _placements 	+ [[180, 15]];
 	_categories = _categories 	+ ["Fortification"];
 };
-
+/*
 _headers = _headers 		+ ["MG Defense"];
 _classes = _classes 		+ ["O_HMG_01_High_F"];
 _prices = _prices 			+ [1500];
@@ -264,10 +264,12 @@ _classes = _classes 		+ ["O_static_AA_F"];
 _prices = _prices 			+ [2000];
 _placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
+*/
+
 if !(MADE_FOR_STRATIS) then {
 _headers = _headers 		+ ["Mortar"];
 _classes = _classes 		+ ["O_Mortar_01_F"];
-_prices = _prices 			+ [5000];
+_prices = _prices 			+ [40000];
 _placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
 };

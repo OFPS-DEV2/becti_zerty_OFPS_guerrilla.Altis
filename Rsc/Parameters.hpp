@@ -21,7 +21,7 @@ class Params {
 		title = "BASE: Maximum base number ";
 		values[] = {0,1,2,4,6};
 		texts[] = {"0","1","2","4","6"};
-		default = 2;
+		default = 1;
 	};
 	class CTI_BASE_HQ_REPAIR {
 		title = "BASE: HQ Repairable";
@@ -33,13 +33,13 @@ class Params {
 		title = "BASE: FOB Limit";
 		values[] = {0,1,2,3,4,5,6,7,8,9,10};
 		texts[] = {"Disabled","1","2","3","4","5","6","7","8","9","10"};
-		default = 4;
+		default = 0;
 	};
 	class CTI_BASE_STARTUP_PLACEMENT {
 		title = "BASE: Startup Placement";
 		values[] = {2000,3000,4000,5000,6000,7000,8000,9000,10000,12000,15000,20000};
 		texts[] = {"2 KM","3 KM","4 KM","5 KM","6 KM","7 KM","8 KM","9 KM","10 KM","12 KM","15 KM","20 KM"};
-		default = 15000;
+		default = 8000;
 	};
 	class CTI_ECONOMY_INCOME_CYCLE {
 		title = "INCOME: Delay";
@@ -51,7 +51,7 @@ class Params {
 		title = "INCOME: Starting Funds (East Commander)";
 		values[] = {40000,50000,60000,70000,80000,90000,100000,125000,150000,200000};
 		texts[] = {"$40000","$50000","$60000","$70000","$80000","$90000","$100000","$125000","$150000","$200000"};
-		default = 80000;
+		default = 60000;
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_EAST {
 		title = "INCOME: Starting Funds (East Players)";
@@ -63,7 +63,7 @@ class Params {
 		title = "INCOME: Starting Funds (West Commander)";
 		values[] = {40000,50000,60000,70000,80000,90000,100000,125000,150000,200000};
 		texts[] = {"$40000","$50000","$60000","$70000","$80000","$90000","$100000","$125000","$150000","$200000"};
-		default = 80000;
+		default = 60000;
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_WEST {
 		title = "INCOME: Starting Funds (West Players)";
@@ -231,7 +231,7 @@ class Params {
 		title = "Zerty: MISSION: Minimum number of towns";
 		values[] = {0,10,20,30,40};
 		texts[] = {"all","10","20","30","40"};
-		default = 0;
+		default = 20;
 	};
 	class CTI_VICTORY_HQ {
 		title = "Zerty: MISSION : Victory on HQ Destroyed";
@@ -325,19 +325,19 @@ class Params {
 		title = "Zerty: GAMEPLAY: No NVs, No Thermal";
 		values[] = {0,1};
 		texts[] = {"false","true"};
-		default = 0;
+		default = 1;
 	};
 	class CTI_ECONOMY_BASE_PLAYER_INCOME {
 		title = "Zerty: INCOME: base income for players";
 		values[] = {0,10,25,50,100,150,200,250};
 		texts[] = {"0$","10$","25$","50$","100$","150$","200$","250$"};
-		default = 150;
+		default = 50;
 	};
 	class CTI_VEHICLES_BOUNTY {
 		title = "Zerty: INCOME: On kill";
 		values[] = {0,25,50,75,100};
 		texts[] = {"No value","Low value","Medium value","High value","Full value"};
-		default = 25;
+		default = 50;
 	};
 	class CTI_PLAYER_REEQUIP {
 		title = "Zerty: RESPAWN : Reequip Gear";
@@ -385,7 +385,7 @@ class Params {
 		title = "Zerty: TOWNS : Shop price ratio";
 		values[] = {1,2,3,5,10,100};
 		texts[] = {"1","2","3","5","10","100"};
-		default = 3;
+		default = 2;
 	};
 
 	class CTI_WEATHER_INITIAL {
@@ -394,11 +394,23 @@ class Params {
 		texts[] = {"Morning","Noon","Evening","Midnight","Random"};
 		default = 10;
 	};
+	class CTI_WEATHER_DYNAMIC {
+		title = "Zerty: WEATHER: Dynamic";
+		values[] = {0,1};
+		texts[] = {"False","True"};
+		default = 1;
+	};
 	class CTI_WEATHER_ALLOWRAIN {
 		title = "Zerty: WEATHER: Allow Rain";
 		values[] = {0,1};
 		texts[] = {"False","True"};
 		default = 0;
+	};
+	class initialWeatherParam {
+	    title = "Zerty: WEATHER:Starting Weather";
+	    values[] = {0,1,2,3,4};
+	    texts[] = {"Clear","Overcast","Rain","Fog","Random"};
+	    default = 4;
 	};
   	class CTI_WEATHER_FAST {
 		title = "Zerty: WEATHER: day duration";
@@ -517,7 +529,7 @@ class Params {
 		title = "Zerty: Halo Jump: Enabled";
 		values[] = {0,1};
 		texts[] = {"Disabled","Enabled"};
-		default = 1;
+		default = 0;
 	};
 	class CTI_SM_RADAR {
 		title = "Zerty: Air Radar: Enabled";
@@ -529,7 +541,7 @@ class Params {
 		title = "Zerty: Trophy: Enabled";
 		values[] = {0,1};
 		texts[] = {"False","True"};
-		default = 1;
+		default = 0;
 	};
 	class CTI_AC_ENABLED {
 		title = "Henroth: Aircraft Loadout Customisation : Enabled";

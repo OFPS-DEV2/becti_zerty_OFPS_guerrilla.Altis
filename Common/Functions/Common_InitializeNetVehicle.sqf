@@ -140,16 +140,16 @@ if (typeOf _vehicle in (CTI_VEHICLES_RETEXTURE)) then {
     switch (_side) do { 
      	
 		case west: { 
-            _vehicle setObjectTextureGlobal  [0,"\A3\armor_f_beta\APC_Tracked_01\Data\apc_tracked_01_body_crv_co.paa"]; 
-            _vehicle setObjectTextureGlobal  [1,"\A3\armor_f_beta\APC_Tracked_01\Data\apc_tracked_01_body_crv_co.paa"]; 
-            _vehicle setObjectTextureGlobal  [2,"\A3\armor_f_beta\APC_Tracked_01\Data\apc_tracked_01_body_crv_co.paa"]; 
+            //_vehicle setObjectTextureGlobal  [0,"\A3\armor_f_beta\APC_Tracked_01\Data\apc_tracked_01_body_crv_co.paa"]; 
+            //_vehicle setObjectTextureGlobal  [1,"\A3\armor_f_beta\APC_Tracked_01\Data\apc_tracked_01_body_crv_co.paa"]; 
+            //_vehicle setObjectTextureGlobal  [2,"\A3\armor_f_beta\APC_Tracked_01\Data\apc_tracked_01_body_crv_co.paa"]; 
         }; 
 		
 		case east: { 
             _vehicle setObjectTextureGlobal [0,"\A3\armor_f_beta\APC_Tracked_01\Data\apc_tracked_01_crv_opfor_co.paa"]; 
-            _vehicle setObjectTextureGlobal [1,"\A3\armor_f_beta\APC_Tracked_01\Data\apc_tracked_01_crv_opfor_co.paa"]; 
+            //_vehicle setObjectTextureGlobal [1,"\A3\armor_f_beta\APC_Tracked_01\Data\apc_tracked_01_crv_opfor_co.paa"]; 
             _vehicle setObjectTextureGlobal [2,"\A3\armor_f_beta\APC_Tracked_01\Data\apc_tracked_01_crv_opfor_co.paa"]; 
-			_vehicle setObjectTextureGlobal [3,"\A3\armor_f_beta\APC_Tracked_01\Data\apc_tracked_01_crv_opfor_co.paa"]; 
+			
         };
 		
     }; 
