@@ -156,9 +156,9 @@ _pos=[(_pos select 0),(_pos select 1),(_pos select 2)+_offset/3];
 _marker = createMarkerLocal ["cti_help_30", _pos];
 _marker setMarkerTypeLocal "mil_dot";
 _marker setMarkerSizeLocal [1,1];
-_marker setMarkerColorLocal ( (CTI_P_SideJoined) call CTI_CO_FNC_GetSideColoration);
+_marker setMarkerColorLocal "ColorRed";
 _marker setMarkerAlphaLocal 0.7;
-_marker setMarkerTextLocal "BLUFOR held town.";
+_marker setMarkerTextLocal "OPFOR held town.";
 _pos=[(_pos select 0),(_pos select 1)-_offset,(_pos select 2)-_offset/3];
 
 _marker = createMarkerLocal ["cti_help_40", _pos];
@@ -172,9 +172,9 @@ _pos=[(_pos select 0),(_pos select 1),(_pos select 2)+_offset/3];
 _marker = createMarkerLocal ["cti_help_4", _pos];
 _marker setMarkerTypeLocal "mil_dot";
 _marker setMarkerSizeLocal [1,1];
-_marker setMarkerColorLocal  ( (_enemy) call CTI_CO_FNC_GetSideColoration);
+_marker setMarkerColorLocal "ColorBlue";;
 _marker setMarkerAlphaLocal 0.7;
-_marker setMarkerTextLocal "OPFOR held town.";
+_marker setMarkerTextLocal "BLUFOR held town.";
 _pos=[(_pos select 0),(_pos select 1)-_offset,(_pos select 2)-_offset/3];
 
 
