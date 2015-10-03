@@ -42,6 +42,7 @@ with missionNamespace do {
 	  	REV_INIT = compileFinal preprocessFileLineNumbers "Addons\Strat_mode\REV\REV_init.sqf";
 	  	SM_ACTION_BUILD = compileFinal preprocessFileLineNumbers "Addons\Strat_mode\Functions\SM_Action_Build.sqf";
 	    SM_ACTION_REPAIR = compileFinal preprocessFileLineNumbers "Addons\Strat_mode\Functions\SM_Action_Repair.sqf";
+	    SM_ACTION_DISMANTLE = compileFinal preprocessFileLineNumbers "Addons\Strat_mode\Functions\SM_Action_Dismantle.sqf";
 	    SM_COM_Init = compileFinal preprocessFileLineNumbers "Addons\Strat_mode\Old_Com_Eject\SM_COM_init.sqf";
 	   	HCGA_Init = compileFinal preprocessFileLineNumbers "Addons\Strat_mode\HC_GA\HCGA_Init.sqf";
 	   	UAV_FUEL = compileFinal preprocessFileLineNumbers "Addons\Strat_mode\Functions\UAV_Fuel.sqf";
@@ -358,7 +359,7 @@ if (CTI_IsClient) then {
 
   	// Strat Mode Help and fuctions
 
-	0 execVM "Addons\Strat_mode\Functions\SM_DrawHelp.sqf";
+	//0 execVM "Addons\Strat_mode\Functions\SM_DrawHelp.sqf";
 	if !((side player) == resistance) then{
 		0 execVM "Addons\Strat_mode\Functions\SM_Orders.sqf";
 		0 execVM "Addons\Strat_mode\Functions\SM_TownPriority.sqf";
